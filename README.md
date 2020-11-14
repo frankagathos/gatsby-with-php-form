@@ -9,7 +9,7 @@ Use form-A example component.
 1. Replace the email address in this [php file](https://github.com/frankagathos/gatsby-with-php-form/blob/master/api/contact/config.php) with your email.
 2. Replace the URL endpoint in the [form-A component](https://github.com/frankagathos/gatsby-with-php-form/blob/master/src/components/form-A.js) to the directory you plan to deploy the API folder to.
 3. Create a static Gatsby build using  **npm run build** or **gatsby build**.
-4. Deploy Gatsby static app and API folder to match the endpoint in step 2.
+4. Deploy your Gatsby static app build and also add the API folder in a directory that matches the URL endpoint in step 2.
 
 # Quick start for any React application
 
