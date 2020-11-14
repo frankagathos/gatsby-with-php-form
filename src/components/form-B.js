@@ -3,10 +3,7 @@ import PropTypes from "prop-types";
 import axios from "axios";
 
 
-/**
- * @component Form
- * @props - { object } -  config
- */
+
 class Form extends React.Component {
   constructor(props) {
     super(props);
@@ -15,16 +12,13 @@ class Form extends React.Component {
       error: null
     };
   }
-  /**
-  * @function handleFormSubmit
-  * @param e { obj } - form event
-  * @return void
-  */
+
+
   handleFormSubmit = e => {
     e.preventDefault();
     axios({
       method: "post",
-      url: 'https://testpage2.frankagathos.com/api/contact/index.php',
+      url: 'https://your-website-domain.com/api/contact/index.php', //change this to correct endpoint 
       headers: { "content-type": "application/json" },
       data: this.state
     })
@@ -40,12 +34,7 @@ class Form extends React.Component {
       })
       .catch(error => this.setState({ error: error.message }));
   };
-  /**
-    * @function handleChange
-    * @param e { obj } - change event
-    * @param field { string } - namve of the field
-    * @return void
-    */
+
   handleChange = (e, field) => {
     let value = e.target.value;
     let updateValue = {};

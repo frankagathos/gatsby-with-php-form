@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Form with PHP`,
-    description: `Gatsby example with PHP endpoint`,
-    author: `Frantzeskos Agathos`,
+    description: `Gatsby examples to use with a LAMP stack server(PHP).`,
+    author: `Frank Agathos (Frantzeskos Agathos)`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

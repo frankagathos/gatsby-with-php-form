@@ -1,4 +1,4 @@
 <?php
-$adminEmail =  "frantzeskosagathos@gmail.com"; //Please change this to yours
+$adminEmail =  "my.email.address@gmail.com"; // Change this to your email address
 $SendMailFailederrorMessage = "Something went wrong";
 $SendMailEmptyerrorMessage = "Empty form";

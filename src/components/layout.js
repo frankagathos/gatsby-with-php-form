@@ -35,11 +35,14 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        {/* <footer>
-          © {new Date().getFullYear()}, Built with
+        <br>
+        </br>
+        <br></br>
+        <footer>
+          © {new Date().getFullYear()}, Created by
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer> */}
+          <a href="https://frankagathos.com">Frank Agathos</a>
+        </footer>
       </div>
     </>
   )
