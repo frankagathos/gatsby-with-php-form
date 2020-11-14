@@ -2,18 +2,24 @@
 
 In order to send emails with PHP you will need a local web server on your computer with a solution like XAMPP. If you have a LAMP stack server then you can deploy directly on your server.
 
+## Installation
+
+From your console cd to the root dir ans:
+1. run **npm install**, to install npm packages.
+2. run **npm start**, to start the development server. 
+
 ## Quick start for Gatsby
 
-Use form-A example component.
+Use form-A or form-B example components and follow the steps below:
 
 1. Replace the email address in this [php file](https://github.com/frankagathos/gatsby-with-php-form/blob/master/api/contact/config.php) with your email.
 2. Replace the URL endpoint in the [form-A component](https://github.com/frankagathos/gatsby-with-php-form/blob/master/src/components/form-A.js) to the directory you plan to deploy the API folder to.
 3. Create a static Gatsby build using  **npm run build** or **gatsby build**.
 4. Deploy your Gatsby static app build and also add the API folder in a directory that matches the URL endpoint in step 2.
 
-# Quick start for any React application
+## Quick start for any React application
 
-Use form-A example component.
+Use form-A or form-B example components and follow the steps below:
 
 1. Follow steps 1. and 2. from above.
 2. Add the [form-A component](https://github.com/frankagathos/gatsby-with-php-form/blob/master/src/components/form-A.js) in your app.
