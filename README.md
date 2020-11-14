@@ -1,11 +1,11 @@
 # React/Gatsby - PHP form 
 
-### Beginners guide (Skip to Installation if not a beginner)
+## Intro
 
-We are going to build the following:
+This repo includes:
 
-1. The client app with Gatsby. (note that the method we use here will apply for any static site generator builders).
-2. The back-end using PHP to handle the requests from the client and send the emails.
+1. The client app with Gatsby using Gatsby default starter. Please note that the method we use here to send emails will apply to any static site generator builder framework(next.js, create react app etc.).
+2. The back-end API using PHP to handle the requests from the client and send the emails.
 
 Process: The user will make a request to send some data using a form in our app, the request will hit a URL endpoint in our server where PHP will handle the request and then send the data via email to an email address.
 
