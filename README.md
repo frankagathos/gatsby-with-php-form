@@ -4,9 +4,9 @@ In order to send emails with PHP you will need a local web server on your comput
 
 ## Installation
 
-From your console cd to the root dir ans:
-1. run **npm install**, to install npm packages.
-2. run **npm start**, to start the development server. 
+From your console cd to the projects root directory and run:
+1. **npm install**, to install npm packages.
+2. **npm start**, to start the development server. 
 
 ## Quick start for Gatsby
 
