@@ -6,7 +6,7 @@ In order to send emails with PHP you will need a local web server on your comput
 
 Use form-A example component.
 
-1. Setup your email in this [file] (https://github.com/frankagathos/gatsby-with-php-form/blob/master/api/contact/config.php)
+1. Setup your email in this  [file](https://github.com/frankagathos/gatsby-with-php-form/blob/master/api/contact/config.php)
 2. Setup your API endpoint URL in form-A component found inside the components folder.
 3. Create a static build using Gatsby **npm run build** or **gatsby build**
 4. Deploy Gatsby static app and API folder to match the endpoint in step 2.
@@ -15,7 +15,7 @@ Use form-A example component.
 
 Use form-A example component.
 
-1. Setup your email in this [file] (https://github.com/frankagathos/gatsby-with-php-form/blob/master/api/contact/config.php)
+1. Setup your email in this [file](https://github.com/frankagathos/gatsby-with-php-form/blob/master/api/contact/config.php)
 2. Setup your API endpoint URL in form-A component found inside the components folder.
 3. Make sure you deploy the API folder in the CRA build in your server so you don't run into CORS issues or configure appropriately.
 
