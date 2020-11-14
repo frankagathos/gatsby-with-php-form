@@ -1,12 +1,12 @@
-# Gatsby PHP form 
+# React/Gatsby PHP form 
 
 In order to send emails with PHP you will need a local web server on your computer with a solution like XAMPP. If you have a LAMP stack server then you can deploy directly on your server.
 
 ## Installation
 
-From your console cd to the projects root directory and run:
-1. **npm install**, to install npm packages.
-2. **npm start**, to start the development server. 
+From your console cd to the project's root directory and run:
+1. **npm install** - to install npm packages.
+2. **npm start** - to start the development server. 
 
 ## Quick start for Gatsby
 
