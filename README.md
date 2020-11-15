@@ -21,18 +21,18 @@ After you clone the repo use the console to cd to the project's root directory a
 
 Use form-A or form-B example components and follow the steps below:
 
-1. Replace the email address in [config.php](https://github.com/frankagathos/gatsby-with-php-form/blob/master/api/contact/config.php) with your email.
-2. Replace the URL endpoint in the [form-A component](https://github.com/frankagathos/gatsby-with-php-form/blob/master/src/components/form-A.js) to the directory you plan to deploy the API folder to.
+1. **Replace the email address in [config.php](https://github.com/frankagathos/gatsby-with-php-form/blob/master/api/contact/config.php) with your email**.
+2. **Replace the URL endpoint in the [form-A component](https://github.com/frankagathos/gatsby-with-php-form/blob/master/src/components/form-A.js) to the directory you plan to deploy the API folder to**.
 3. Create a static Gatsby build using  **npm run build** or **gatsby build**.
-4. Deploy your Gatsby static app build and also add the API folder in a directory that matches the URL endpoint in step 2.
+4. **Deploy your Gatsby static app build and also add the API folder in a directory that matches the URL endpoint in step 2**.
 
 ## Quick start for any React application
 
 Use form-A or form-B example components and follow the steps below:
 
-1. Follow steps 1. and 2. from above.
-2. Add the [form-A component](https://github.com/frankagathos/gatsby-with-php-form/blob/master/src/components/form-A.js) in your app.
-3. Add the api folder in the same directory you deploy your app.
+1. **Follow steps 1. and 2. from above**.
+2. **Add the [form-A component](https://github.com/frankagathos/gatsby-with-php-form/blob/master/src/components/form-A.js) in your app**.
+3. **Add the api folder in the same directory you deploy your app**.
 
 More examples with hooks and front-end and back-end validation soon to come!
 
